@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+int nilai [5];
+int jumlah;
+int i, hasil=0;
+for (i=0; i<5; i++) 
+{
+
+cout << "\nInput Nilai Ke " << (i+1) << " = " ;
+cin >> nilai [i];
+}
+
+jumlah = 0;
+for (i=0; i<5; i++)
+{
+jumlah = jumlah + nilai [i];
+
+cout << endl << "\nHasil Ke " << i << " adalah = " << jumlah << endl;
+}
+cout << "\nJumlah Seluruhnya = " << jumlah;
+return 0;
+}
